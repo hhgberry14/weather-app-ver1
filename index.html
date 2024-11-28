@@ -3,10 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
+    <title>Weather App First Version</title>
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body class="weather-app">
+    <header>
+      <form id="search-city">
+        <input
+          type="text"
+          placeholder="Search for cities"
+          id="search-input"
+          required
+        />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+    </header>
+    <main>
+      <div>
+        <h1>CITY</h1>
+        <p>Time</p>
+        <p>
+          Rain, <br />
+          Humid <span> 78%</span>, <br />
+          Wind <span> 20km/h</span>
+        </p>
+      </div>
+      <div>Temperatur ⛅️20°C</div>
+      <p>
+        High: 24°C <br />
+        Low: 10°C
+      </p>
+    </main>
     <footer>
       Coded by <a href="https://github.com/hhgberry14"> Giang Hoang</a> and
       hosted on
