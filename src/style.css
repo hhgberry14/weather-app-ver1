@@ -1,0 +1,39 @@
+body {
+  background: rgb(111, 195, 247);
+  background: linear-gradient(
+    162deg,
+    rgba(111, 195, 247, 1) 26%,
+    rgba(194, 253, 255, 1) 100%
+  );
+  min-height: 100vh;
+  font-size: 18x;
+}
+
+.weather-app {
+  background-color: #9cd5ff;
+  opacity: 0.8;
+  margin: 120px auto;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+header {
+  border-bottom: 1px solid white;
+  padding: 30px;
+}
+footer {
+  border-top: 1px solid white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.basis-info {
+  display: flex;
+  justify-content: space-between;
+}
+.search-city {
+  /* margin: 60px auto;
+  padding: 15px; */
+}
+.search-button {
+}

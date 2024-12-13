@@ -3,42 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/style.css" />
+
     <title>Weather App First Version</title>
   </head>
-  <body class="weather-app">
-    <header>
-      <form id="search-city">
-        <input
-          type="text"
-          placeholder="Search for cities"
-          id="search-input"
-          required
-        />
-        <input type="submit" value="Search" class="search-button" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>CITY</h1>
-        <p>Time</p>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form class="search-city">
+          <input
+            type="text"
+            placeholder="Search for cities"
+            id="search-input"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="basic-info">
+          <div>
+            <h1 class="current-city">CITY</h1>
+            <p class="current-details">Time</p>
+            <p>
+              Chance of rain <strong> 20% </strong>, <br />
+              Humid <strong> 78%</strong>, <br />
+              Wind <strong> 20km/h</strong>
+            </p>
+          </div>
+          <div>Temperatur ⛅️20°C</div>
+          <div>
+            <p>
+              High: 24°C <br />
+              Low: 10°C
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
         <p>
-          Rain, <br />
-          Humid <span> 78%</span>, <br />
-          Wind <span> 20km/h</span>
+          Coded by <a href="https://github.com/hhgberry14"> Giang Hoang</a> and
+          hosted on
+          <a href="https://github.com/hhgberry14/weather-app-ver1"> GitHub</a>
+          and website hosted
+          <a href="https://weather-app-ver1.netlify.app/">on Netlify</a>
         </p>
-      </div>
-      <div>Temperatur ⛅️20°C</div>
-      <p>
-        High: 24°C <br />
-        Low: 10°C
-      </p>
-    </main>
-    <footer>
-      Coded by <a href="https://github.com/hhgberry14"> Giang Hoang</a> and
-      hosted on
-      <a href="https://github.com/hhgberry14/weather-app-ver1"> GitHub</a> and
-      website hosted
-      <a href="https://weather-app-ver1.netlify.app/">on Netlify</a>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
